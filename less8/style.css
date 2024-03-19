@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px; /* Задаем ширину контейнера */
+    height: 400px; /* Задаем высоту контейнера */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddd; /* Добавляем границу */
+    border-radius: 10px; /* Добавляем скругленные углы */
+    padding: 20px; /* Добавляем внутренние отступы */
+    background-color: #fff;
+}
+
+.wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapper-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#count {
+    font-size: 48px;
+    color: #333;
+    margin: 0;
+}
+
+#countPer {
+    font-size: 24px;
+    color: #666;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
